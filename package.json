@@ -1,0 +1,11 @@
+{
+  "name": "wtp-arbeitsblatt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "links": "node wtp-links.mjs beispiel"
+  },
+  "dependencies": {
+    "lz-string": "^1.5.0"
+  }
+}

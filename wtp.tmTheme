@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Farben wie das helle Editor-Theme von WebTigerPython (webtp/src/themes.ts) -->
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>WebTigerPython</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>keyword.control, keyword.other, keyword.operator.logical, keyword.operator.word, storage.type, storage.modifier</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0033AA</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>string, punctuation.definition.string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CC6600</string>
+        <key>fontStyle</key>
+        <string></string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.numeric</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CC3300</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#770088</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>comment, punctuation.definition.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#008000</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
